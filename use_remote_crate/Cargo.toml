@@ -1,0 +1,7 @@
+[package]
+name = "use_remote_crate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+my_library = { git = "https://github.com/z-fujimori/rust_book_library_7.git", version = "0.1.0" }
